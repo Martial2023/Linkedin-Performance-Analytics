@@ -87,7 +87,7 @@ const VirauxTimingChart = () => {
                             ]}
                             groupMode="grouped"
                             indexBy="day"
-                            margin={{ top: 0, right: 0, bottom: 60, left: 20 }}
+                            margin={{ top: 0, right: 0, bottom: 60, left: 45 }}
                             padding={0.3}
                             valueScale={{ type: 'linear' }}
                             indexScale={{ type: 'band', round: true }}

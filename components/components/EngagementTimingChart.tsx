@@ -46,7 +46,7 @@ const EngagementTimingChart = () => {
 
     return (
         <div className="">
-            <div className="p-5 flex justify-between items-center">
+            <div className="p-2 md:p-5 flex justify-between items-center">
                 <div>
                     <h3 className="font-semibold text-lg text-gray-900 dark:text-white">
                         Meilleurs moments pour un fort engagement
