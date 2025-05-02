@@ -34,7 +34,7 @@ const VirauxCategrorieTextLengthChart = () => {
     }
 
     return (
-        <div className="rounded-xl bg-white dark:bg-gray-800/90 shadow-md transition-all duration-300 backdrop-blur-sm hover:shadow-lg">
+        <div className="rounded-xl bg-white dark:bg-gray-800/90 shadow-md transition-all duration-300 hover:shadow-lg">
             <div className="p-5 flex justify-between items-center">
                 <div>
                     <h3 className="font-semibold text-lg text-gray-900 dark:text-white">

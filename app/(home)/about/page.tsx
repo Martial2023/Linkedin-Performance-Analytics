@@ -79,7 +79,7 @@ const Page = () => {
     ];
 
     return (
-        <div className="min-h-screen p-6 md:p-10">
+        <div className="min-h-screen p-2 md:p-10">
             <header className="mb-16 max-w-5xl mx-auto">
                 <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 md:p-10">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
@@ -87,7 +87,7 @@ const Page = () => {
                             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
                                 Pipeline d&apos;analyse des performances LinkedIn
                             </h1>
-                            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+                            <p className="md:text-lg text-gray-600 dark:text-gray-300 mb-6">
                                 Analyse des publications LinkedIn pour calculer et visualiser des KPI clés afin de comprendre les performances des posts à fort engagement et à fort potentiel de viralité.<br />
                                 Sur quelle thématique publier ? Quelle est la longueur idéale d&apos;un post ? Quels hashtags utiliser ? Quand publier ?
                             </p>
@@ -98,8 +98,8 @@ const Page = () => {
                                 <span className="px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200">Dashboard</span>
                             </div>
                         </div>
-                        <div className="shrink-0 w-24 h-24 md:w-32 md:h-32 rounded-2xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
-                            <Linkedin className="w-12 h-12 md:w-16 md:h-16 text-blue-600 dark:text-blue-400" />
+                        <div className="shrink-0 w-16 h-16 md:w-32 md:h-32 rounded-2xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
+                            <Linkedin className="w-6 h-6 md:w-16 md:h-16 text-blue-600 dark:text-blue-400" />
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ const Page = () => {
 
             <section className="max-w-6xl mx-auto mb-16">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 p-2 md:p-8">
-                    <div className="aspect-video w-full bg-gray-50 dark:bg-gray-700/50 rounded-lg relative">
+                    <div className="aspect-video w-full bg-gray-50 dark:bg-gray-700/50 rounded-lg relative overflow-hidden z-10">
                         <Image
                             src="/pipeline.png"
                             fill
@@ -128,8 +128,8 @@ const Page = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
                     {steps.map((step) => (
-                        <div key={step.id} className="relative">
-                            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 p-6 md:p-8 flex flex-col items-center justify-center md:flex-row gap-6 z-10">
+                        <div key={step.id} className="">
+                            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700 p-6 md:p-8 flex flex-col items-center justify-center md:flex-row gap-6">
                                 <div className={`h-10 w-10 shrink-0 rounded-lg ${step.color} flex items-center justify-center`}>
                                     {step.icon}
                                 </div>

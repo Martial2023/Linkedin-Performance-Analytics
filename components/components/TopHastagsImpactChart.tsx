@@ -87,7 +87,7 @@ const TopHashtagsImpactChart = () => {
     };
 
     return (
-        <div className="relative rounded-xl bg-white dark:bg-gray-800/80 shadow-md border border-gray-100 dark:border-gray-700/80 overflow-hidden transition-colors backdrop-blur-sm">
+        <div className="rounded-xl bg-white dark:bg-gray-800/80">
             <style jsx global>{`
                 :root {
                     --color-text: #4B5563;

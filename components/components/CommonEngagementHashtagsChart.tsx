@@ -33,7 +33,7 @@ const CommonEngagementHashtagsChart = () => {
     }
 
     return (
-        <div className="rounded-xl bg-white dark:bg-gray-800/90 overflow-hidden transition-all duration-300 backdrop-blur-sm hover:shadow-lg">
+        <div className="rounded-xl bg-white dark:bg-gray-800/90 overflow-hidden transition-all duration-300 hover:shadow-lg">
             <div className="p-5 border-gray-100 dark:border-gray-700 flex justify-between items-center">
                 <div>
                     <h3 className="font-semibold text-lg text-gray-900 dark:text-white">

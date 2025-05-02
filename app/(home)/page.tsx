@@ -14,7 +14,7 @@ import EngagementCategrorieTextLengthChart from '@/components/components/Engagem
 const Page = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
   const [postsCount, setPostsCount] = useState<NbrePostsResponse>()
-  
+
   const fetchPostsCount = async () => {
     try {
       setIsLoading(true)
@@ -30,7 +30,7 @@ const Page = () => {
   useEffect(() => {
     fetchPostsCount()
   }, [])
-  
+
   return (
     <main className="p-2 md:p-6 lg:p-8 max-w-7xl mx-auto">
       <div className="mb-8">
@@ -65,11 +65,11 @@ const Page = () => {
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-5 gap-6 my-8">
-        <div className="col-span-1 md:col-span-2 min-h-[400px] rounded-2xl overflow-hidden bg-white dark:bg-gray-800 shadow-md border border-gray-100 dark:border-gray-700">
+        <div className="col-span-1 md:col-span-2 min-h-[400px] rounded-2xl overflow-hisdden bg-white dark:bg-gray-800 shadow-md border border-gray-100 dark:border-gray-700">
           <EngagementCategrorieTextLengthChart />
         </div>
 
-        <div className="col-span-1 md:col-span-3 min-h-[400px] rounded-2xl overflow-hidden bg-white dark:bg-gray-800 shadow-md border border-gray-100 dark:border-gray-700">
+        <div className="col-span-1 md:col-span-3 min-h-[400px] rounded-2xl overflow-hiddfen bg-white dark:bg-gray-800 shadow-md border border-gray-100 dark:border-gray-700">
           <div className="p-4 h-full">
             <EngagementPostThemeChart />
           </div>

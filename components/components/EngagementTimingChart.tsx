@@ -225,7 +225,7 @@ const EngagementTimingChart = () => {
                     title={"Analyse d&apos;engagement LinkedIn"}
                 >
                     <div className="rounded-xl bg-white dark:bg-gray-800/90 shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden transition-all duration-300 backdrop-blur-sm hover:shadow-lg">
-                        <div className="p-6 space-y-6">
+                        <div className="p-2 md:p-6 space-y-6">
                             <div className="flex gap-4">
                                 <div className="mt-1 flex-shrink-0">
                                     <LineChart className="w-7 h-7 text-indigo-500 dark:text-indigo-400" />
@@ -247,7 +247,6 @@ const EngagementTimingChart = () => {
                                 </div>
                             </div>
 
-                            {/* Vendredi */}
                             <div className="flex gap-4 bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
                                 <div className="mt-1 flex-shrink-0">
                                     <Calendar className="w-6 h-6 text-blue-600 dark:text-blue-400" />
@@ -260,7 +259,6 @@ const EngagementTimingChart = () => {
                                 </div>
                             </div>
 
-                            {/* Début de semaine */}
                             <div className="flex gap-4 bg-gray-50 dark:bg-gray-700/30 p-4 rounded-lg">
                                 <div className="mt-1 flex-shrink-0">
                                     <Clock className="w-6 h-6 text-gray-600 dark:text-gray-400" />
@@ -273,7 +271,6 @@ const EngagementTimingChart = () => {
                                 </div>
                             </div>
 
-                            {/* Recommandation */}
                             <div className="flex gap-4 bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-100 dark:border-green-900/30">
                                 <div className="mt-1 flex-shrink-0">
                                     <Lightbulb className="w-6 h-6 text-green-600 dark:text-green-400" />

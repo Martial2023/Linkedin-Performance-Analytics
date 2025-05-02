@@ -55,7 +55,10 @@ const MobileNav = () => {
     return (
         <Credenza>
             <CredenzaTrigger asChild>
-                <Button className='z-[100]'>
+                <Button
+                    aria-label="Ouvrir le menu"
+                    className='z-[19999] absolute top-4 right-4'
+                >
                     <Menu className='text-white' />
                 </Button>
             </CredenzaTrigger>
@@ -85,7 +88,7 @@ const MobileNav = () => {
                 </CredenzaHeader>
 
                 <CredenzaBody>
-                    <nav className="flex-1 py-4 px-3 overflow-y-auto">
+                    <nav className="flex-1 py-4 overflow-y-auto">
                         <div className="space-y-1">
                             {navLinks.map((link) => (
                                 <Link
@@ -117,7 +120,7 @@ const MobileNav = () => {
                 </CredenzaBody>
 
                 <CredenzaFooter
-                    className='flex items-center flex-row'
+                    className='flex items-center flex-row gap-4'
                 >
                     <Link
                         href="/author"

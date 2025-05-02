@@ -11,10 +11,8 @@ type Props = {
 
 const StatsCard = ({ title, value, isLoading, icon, iconBg }: Props) => {
     return (
-        <div className="bg-white dark:bg-gray-800/90 relative rounded-2xl overflow-hidden shadow-lg bgm-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 transition-all hover:shadow-xl border border-gray-100 dark:border-gray-700">
-            <div className="absolute inset-0 bgm-gradient-to-b from-transparent to-black/[0.03] dark:to-white/[0.02]"></div>
-
-            <div className="relative p-5">
+        <div className="bg-white dark:bg-gray-800/90 rounded-2xl shadow-lg bgm-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 transition-all hover:shadow-xl border border-gray-100 dark:border-gray-700">
+            <div className=" p-5">
                 <div className="flex justify-between items-start">
                     <div>
                         <p className="text-sm font-medium text-gray-500 dark:text-gray-400">{title}</p>

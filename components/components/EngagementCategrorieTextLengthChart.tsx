@@ -34,7 +34,7 @@ const EngagementCategrorieTextLengthChart = () => {
   }
 
   return (
-    <div className="rounded-xl bg-white dark:bg-gray-800/90 shadow-md transition-all duration-300 backdrop-blur-sm hover:shadow-lg">
+    <div className="rounded-xl bg-white dark:bg-gray-800/90">
       <div className="p-5 flex justify-between items-center">
         <div>
           <h3 className="font-semibold text-lg text-gray-900 dark:text-white">
@@ -68,7 +68,7 @@ const EngagementCategrorieTextLengthChart = () => {
               keys={['len']}
               margin={{
                 bottom: 20,
-                left: 60,
+                left: 30,
                 right: 10,
                 top: 0,
               }}

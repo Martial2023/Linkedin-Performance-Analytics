@@ -87,7 +87,7 @@ const VirauxTimingChart = () => {
                             ]}
                             groupMode="grouped"
                             indexBy="day"
-                            margin={{ top: 0, right: 0, bottom: 60, left: 50 }}
+                            margin={{ top: 0, right: 0, bottom: 60, left: 20 }}
                             padding={0.3}
                             valueScale={{ type: 'linear' }}
                             indexScale={{ type: 'band', round: true }}
@@ -258,7 +258,6 @@ const VirauxTimingChart = () => {
                                 </div>
                             </div>
 
-                            {/* Recommandation */}
                             <div className="flex gap-4 bg-green-50 dark:bg-green-900/20 p-4 rounded-lg border border-green-100 dark:border-green-900/30">
                                 <div className="mt-1 flex-shrink-0">
                                     <Lightbulb className="w-6 h-6 text-green-600 dark:text-green-400" />

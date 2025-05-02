@@ -18,7 +18,6 @@ const Author = () => {
     return (
         <div className="w-full max-w-4xl mx-auto bg-white dark:bg-gray-900 rounded-xl shadow-sm overflow-hidden">
             <div className="flex flex-col md:flex-row">
-                {/* Image section */}
                 <div className="w-full md:w-1/3 bg-gray-100 dark:bg-gray-800 flex items-center justify-center p-6">
                     <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-md">
                         <Image
