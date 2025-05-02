@@ -214,11 +214,11 @@ const TopHashtagsImpactChart = () => {
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <div className="bg-purple-100 dark:bg-purple-900/30 p-2 rounded-full mt-1">
-                                    <Share2 className="h-5 w-5 text-purple-600 dark:text-purple-400" />
+                                <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mt-1">
+                                    <Share2 className="h-5 w-5 text-blue-600 dark:text-blue-400" />
                                 </div>
                                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
-                                    Les <span className="font-medium text-purple-600 dark:text-purple-400">partages</span> augmentent avec <span className="font-medium">2-7 hashtags</span> (pic à <span className="font-semibold">12</span> pour 6 hashtags), suggérant que les hashtags pourraient favoriser la viralité jusqu&apos;à un certain seuil.
+                                    Les <span className="font-medium text-blue-600 dark:text-blue-400">partages</span> augmentent avec <span className="font-medium">2-7 hashtags</span> (pic à <span className="font-semibold">12</span> pour 6 hashtags), suggérant que les hashtags pourraient favoriser la viralité jusqu&apos;à un certain seuil.
                                 </p>
                             </div>
 
@@ -232,11 +232,11 @@ const TopHashtagsImpactChart = () => {
                             </div>
 
                             <div className="flex items-start gap-3">
-                                <div className="bg-amber-100 dark:bg-amber-900/30 p-2 rounded-full mt-1">
-                                    <TrendingDown className="h-5 w-5 text-amber-600 dark:text-amber-400" />
+                                <div className="bg-blue-100 dark:bg-blue-900/30 p-2 rounded-full mt-1">
+                                    <TrendingDown className="h-5 w-5 text-blue-600 dark:text-blue-400" />
                                 </div>
                                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
-                                    Les publications <span className="font-medium text-amber-600 dark:text-amber-400">sans hashtags</span> (<span className="bg-amber-50 dark:bg-amber-900/20 px-1 py-0.5 rounded font-mono text-xs">0 hashtag</span>) performent moins bien (<span className="font-semibold">66</span> d&apos;engagement, <span className="font-semibold">5,93</span> partages) que celles avec 1-2 hashtags, confirmant que les hashtags pourraient améliorer la découvrabilité.
+                                    Les publications <span className="font-medium text-blue-600 dark:text-blue-400">sans hashtags</span> (<span className="bg-blue-50 dark:bg-blue-900/20 px-1 py-0.5 rounded font-mono text-xs">0 hashtag</span>) performent moins bien (<span className="font-semibold">66</span> d&apos;engagement, <span className="font-semibold">5,93</span> partages) que celles avec 1-2 hashtags, confirmant que les hashtags pourraient améliorer la découvrabilité.
                                 </p>
                             </div>
                         </div>
@@ -247,7 +247,7 @@ const TopHashtagsImpactChart = () => {
                                 <h4 className="font-medium text-gray-800 dark:text-gray-200">Conclusion</h4>
                             </div>
                             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm bg-gray-50 dark:bg-gray-700/50 p-3 rounded-md">
-                                La corrélation négative (<span className="font-mono text-xs bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded">-0,09</span> pour l&apos;engagement, <span className="font-mono text-xs bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded">0,0001</span> pour les partages) indique que le nombre de hashtags n&apos;est pas le principal moteur de performance. <span className="italic font-medium text-teal-600 dark:text-teal-400">La qualité du contenu et la taille du réseau restent les facteurs les plus déterminants pour le succès d&apos;une publication LinkedIn.</span>
+                                La corrélation négative (<span className="font-mono text-xs bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded">-0,09</span> pour l&apos;engagement, <span className="font-mono text-xs bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded">0,0001</span> pour les partages) indique que le nombre de hashtags n&apos;est pas le principal moteur de performance. <span className="italic font-medium text-blue-600 dark:text-blue-400">La qualité du contenu et la taille du réseau restent les facteurs les plus déterminants pour le succès d&apos;une publication LinkedIn.</span>
                             </p>
                         </div>
                     </div>

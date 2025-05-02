@@ -25,7 +25,11 @@ const ShowExplanation = ({ title, children }: Props) => {
     return (
         <Credenza>
             <CredenzaTrigger asChild>
-                <Button size={'sm'} className='flex items-center text-white rounded-br-2xl'>
+                <Button
+                    variant={"outline"}
+                    size={'sm'}
+                    className='flex items-center text-white rounded-br-2xl'
+                >
                     <FileChartColumn className='text-white' />
                     Analyse
                 </Button>

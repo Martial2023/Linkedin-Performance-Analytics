@@ -92,10 +92,10 @@ const Page = () => {
                                 Sur quelle thématique publier ? Quelle est la longueur idéale d&apos;un post ? Quels hashtags utiliser ? Quand publier ?
                             </p>
                             <div className="flex flex-wrap gap-2">
-                                <span className="px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">ETL</span>
-                                <span className="px-3 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200">Data Pipeline</span>
-                                <span className="px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200">Social Media Analytics</span>
-                                <span className="px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200">Dashboard</span>
+                                <span className="px-3 py-1 rounded-full text-xs font-medium border">ETL</span>
+                                <span className="px-3 py-1 rounded-full text-xs font-medium border">Data Pipeline</span>
+                                <span className="px-3 py-1 rounded-full text-xs font-medium border">Social Media Analytics</span>
+                                <span className="px-3 py-1 rounded-full text-xs font-medium border">Dashboard</span>
                             </div>
                         </div>
                         <div className="shrink-0 w-16 h-16 md:w-32 md:h-32 rounded-2xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">

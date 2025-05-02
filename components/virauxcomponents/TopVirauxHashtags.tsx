@@ -166,42 +166,42 @@ const TopVirauxHashtags = () => {
                         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border border-gray-100 dark:border-gray-700">
                             <div className="space-y-6">
                                 <div className="space-y-4">
-                                    <div className="border-l-4 border-blue-500 pl-4">
+                                    <div className="border-l-4 border-gray-500 pl-4">
                                         <h3 className="font-semibold text-gray-800 dark:text-white">Thématiques B2B clés</h3>
                                         <p className="text-gray-600 dark:text-gray-300 mt-1">
-                                            <span className="font-medium text-blue-600 dark:text-blue-400">#workplaceculture</span>,
-                                            <span className="font-medium text-blue-600 dark:text-blue-400">#digitaltransformation</span>, et
-                                            <span className="font-medium text-blue-600 dark:text-blue-400">#leadership</span> dominent,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#workplaceculture</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#digitaltransformation</span>, et
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#leadership</span> dominent,
                                             reflétant l&apos;importance de la culture d&apos;entreprise, de l&apos;innovation technologique et de l&apos;inspiration professionnelle.
                                         </p>
                                     </div>
 
-                                    <div className="border-l-4 border-purple-500 pl-4">
+                                    <div className="border-l-4 border-gray-500 pl-4">
                                         <h3 className="font-semibold text-gray-800 dark:text-white">Ressources humaines & Carrière</h3>
                                         <p className="text-gray-600 dark:text-gray-300 mt-1">
-                                            Les hashtags comme <span className="font-medium text-purple-600 dark:text-purple-400">#humanresources</span>,
-                                            <span className="font-medium text-purple-600 dark:text-purple-400">#hiring</span>,
-                                            <span className="font-medium text-purple-600 dark:text-purple-400">#hr</span>,
-                                            <span className="font-medium text-purple-600 dark:text-purple-400">#recruitment</span>,
-                                            <span className="font-medium text-purple-600 dark:text-purple-400">#jobsearch</span>, et
-                                            <span className="font-medium text-purple-600 dark:text-purple-400">#careergrowth</span> mettent en avant la gestion des talents et le développement professionnel.
+                                            Les hashtags comme <span className="font-medium text-gray-600 dark:text-gray-400">#humanresources</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#hiring</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#hr</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#recruitment</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#jobsearch</span>, et
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#careergrowth</span> mettent en avant la gestion des talents et le développement professionnel.
                                         </p>
                                     </div>
 
-                                    <div className="border-l-4 border-green-500 pl-4">
+                                    <div className="border-l-4 border-gray-500 pl-4">
                                         <h3 className="font-semibold text-gray-800 dark:text-white">Tendances & Motivation</h3>
                                         <p className="text-gray-600 dark:text-gray-300 mt-1">
-                                            <span className="font-medium text-green-600 dark:text-green-400">#innovation</span>,
-                                            <span className="font-medium text-green-600 dark:text-green-400">#ai</span>,
-                                            <span className="font-medium text-green-600 dark:text-green-400">#futureofwork</span>,
-                                            <span className="font-medium text-green-600 dark:text-green-400">#employeeengagement</span>,
-                                            <span className="font-medium text-green-600 dark:text-green-400">#teamwork</span>, et
-                                            <span className="font-medium text-green-600 dark:text-green-400">#leadershipdevelopment</span> témoignent d&apos;un intérêt pour les avancées technologiques, la collaboration et la motivation.
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#innovation</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#ai</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#futureofwork</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#employeeengagement</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#teamwork</span>, et
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#leadershipdevelopment</span> témoignent d&apos;un intérêt pour les avancées technologiques, la collaboration et la motivation.
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-md mt-4">
+                                <div className="bg-gray-50 dark:bg-gray-900/20 p-4 rounded-md mt-4">
                                     <p className="text-gray-700 dark:text-gray-200 font-medium">
                                         💡 <span className="italic">L&apos;utilisation ciblée de ces hashtags, combinée à des contenus riches et pertinents, maximise la viralité et la période de diffusion sur LinkedIn.</span>
                                     </p>

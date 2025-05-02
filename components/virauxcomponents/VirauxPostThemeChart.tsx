@@ -121,9 +121,9 @@ const VirauxPostThemeChart = () => {
                         className="text-justify text-gray-700 dark:text-gray-300 leading-relaxed p-4 text-sm md:text-base font-normal tracking-wide bg-gray-50 dark:bg-gray-800/50 rounded-md border border-gray-100 dark:border-gray-700 shadow-sm my-4"
                     >
                         Les thèmes les plus fréquents des posts viraux sur LinkedIn sont <span className="font-semibold text-blue-600 dark:text-blue-400">Culture d’entreprise</span>, <span className="font-semibold text-indigo-600 dark:text-indigo-400">Transformation numérique</span>, 
-                        <span className="font-semibold text-teal-600 dark:text-teal-400">Technologie</span>, <span className="font-semibold text-purple-600 dark:text-purple-400">Leadership</span> et <span className="font-semibold text-cyan-600 dark:text-cyan-400">Ressources humaines</span>,
+                        <span className="font-semibold text-blue-600 dark:text-blue-400">Technologie</span>, <span className="font-semibold text-blue-600 dark:text-blue-400">Leadership</span> et <span className="font-semibold text-blue-600 dark:text-blue-400">Ressources humaines</span>,
                          reflétant des priorités B2B telles que l’innovation, la gestion des talents et l’inspiration professionnelle. Les sujets comme <span className="font-semibold text-blue-600 dark:text-blue-400">IA</span>, <span className="font-semibold text-indigo-600 dark:text-indigo-400">Projet</span>
-                         et <span className="font-semibold text-teal-600 dark:text-teal-400">Tutoriel</span> sont aussi souvent viraux grâce à leur contenu éducatif et informatif. <span className="italic">Un contenu de qualité aligné sur ces thèmes augmente significativement 
+                         et <span className="font-semibold text-blue-600 dark:text-blue-400">Tutoriel</span> sont aussi souvent viraux grâce à leur contenu éducatif et informatif. <span className="italic">Un contenu de qualité aligné sur ces thèmes augmente significativement 
                         les chances de devenir viraux sur Linkedin.</span>
                     </p>
                 </ShowExplanation>

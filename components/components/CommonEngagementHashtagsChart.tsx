@@ -166,35 +166,35 @@ const CommonEngagementHashtagsChart = () => {
                         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border border-gray-100 dark:border-gray-700">
                             <div className="space-y-6">
                                 <div className="space-y-4">
-                                    <div className="border-l-4 border-blue-500 pl-4">
+                                    <div className="border-l-4 border-gray-500 pl-4">
                                         <h3 className="font-semibold text-gray-800 dark:text-white">Thématiques B2B clés</h3>
                                         <p className="text-gray-600 dark:text-gray-300 mt-1">
-                                            <span className="font-medium text-blue-600 dark:text-blue-400">#digitaltransformation</span>,
-                                            <span className="font-medium text-blue-600 dark:text-blue-400"> #leadership</span>, et
-                                            <span className="font-medium text-blue-600 dark:text-blue-400"> #workplaceculture</span> reflètent
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#digitaltransformation</span>,
+                                            <span className="font-medium text-gray-600 dark:text-gray-400"> #leadership</span>, et
+                                            <span className="font-medium text-gray-600 dark:text-gray-400"> #workplaceculture</span> reflètent
                                             l&apos;innovation technologique, l&apos;inspiration professionnelle et la culture d&apos;entreprise.
                                         </p>
                                     </div>
 
-                                    <div className="border-l-4 border-purple-500 pl-4">
+                                    <div className="border-l-4 border-gray-500 pl-4">
                                         <h3 className="font-semibold text-gray-800 dark:text-white">Ressources humaines & Carrière</h3>
                                         <p className="text-gray-600 dark:text-gray-300 mt-1">
-                                            Les hashtags RH (<span className="font-medium text-purple-600 dark:text-purple-400">#humanresources, #hr, #hiring, #recruitment</span>)
-                                            et développement de carrière (<span className="font-medium text-purple-600 dark:text-purple-400">#jobsearch, #careergrowth</span>)
+                                            Les hashtags RH (<span className="font-medium text-gray-600 dark:text-gray-400">#humanresources, #hr, #hiring, #recruitment</span>)
+                                            et développement de carrière (<span className="font-medium text-gray-600 dark:text-gray-400">#jobsearch, #careergrowth</span>)
                                             soulignent l&apos;importance de la gestion des talents.
                                         </p>
                                     </div>
 
-                                    <div className="border-l-4 border-green-500 pl-4">
+                                    <div className="border-l-4 border-gray-500 pl-4">
                                         <h3 className="font-semibold text-gray-800 dark:text-white">Tendances & Motivation</h3>
                                         <p className="text-gray-600 dark:text-gray-300 mt-1">
-                                            <span className="font-medium text-green-600 dark:text-green-400">#innovation, #ai, #motivation</span> indiquent
+                                            <span className="font-medium text-gray-600 dark:text-gray-400">#innovation, #ai, #motivation</span> indiquent
                                             un fort intérêt pour les avancées technologiques et l&apos;engagement motivationnel.
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-md mt-4">
+                                <div className="bg-gray-50 dark:bg-gray-900/20 p-4 rounded-md mt-4">
                                     <p className="text-gray-700 dark:text-gray-200 font-medium">
                                         💡 <span className="italic">L&apos;utilisation stratégique de ces hashtags, alignés sur des contenus de qualité,
                                             favorise un engagement élevé et une visibilité accrue sur LinkedIn.</span>
