@@ -13,7 +13,7 @@ const EngagementPostThemeChart = () => {
     const fetchEngagementPostTheme = async () => {
         try {
             setIsLoading(true)
-            const data = await getEngagementPostTheme({type: "engagement_post_theme"})
+            const data = await getEngagementPostTheme({ type: "engagement_post_theme" })
             setEngagementPostTheme(data)
         } catch (error) {
             console.error("EngagementPostThemeChart:", error)
@@ -50,7 +50,12 @@ const EngagementPostThemeChart = () => {
                     ) : (
                         <ResponsivePie
                             data={engagementPostTheme}
-                            margin={{ top: 30, right: 80, bottom: 20, left: 80 }}
+                            margin={{
+                                top: 20,
+                                right: 20,
+                                bottom: 20,
+                                left: 20
+                            }}
                             innerRadius={0.55}
                             padAngle={0.5}
                             cornerRadius={4}

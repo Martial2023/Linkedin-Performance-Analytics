@@ -32,7 +32,7 @@ const Page = () => {
   }, [])
   
   return (
-    <main className="p-4 md:p-6 lg:p-8 max-w-7xl mx-auto">
+    <main className="p-2 md:p-6 lg:p-8 max-w-7xl mx-auto">
       <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50">Tableau de bord</h1>
         <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Vue d&apos;ensemble des publications et analyses LinkedIn</p>
