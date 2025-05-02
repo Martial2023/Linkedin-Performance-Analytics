@@ -1,0 +1,16 @@
+day_of_week,time_of_day,mean_engagement_total
+1,Après-midi,179.5
+2,Après-midi,247.5
+3,Après-midi,453.0
+3,Soir,530.5
+4,Tôt le matin,137.0
+4,Après-midi,181.6078431372549
+4,Fin de journée,183.23076923076923
+4,Soir,259.5625
+4,Milieu de matinée,163.82142857142858
+5,Milieu de matinée,487.0
+5,Soir,336.0
+5,Après-midi,246.0
+5,Fin de journée,759.0
+5,Tôt le matin,411.6666666666667
+7,Après-midi,109.0
