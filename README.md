@@ -3,7 +3,7 @@
 Ce projet est une application [Next.js](https://nextjs.org) développée pour analyser les performances des publications sur LinkedIn, en se basant sur des données scrapées et traitées via un pipeline de données. Le tableau de bord interactif visualise des indicateurs clés de performance (KPI) tels que les thèmes viraux, les hashtags stratégiques, les moments optimaux de publication, et la longueur idéale des posts. L’objectif est d’aider les créateurs de contenu et les professionnels du marketing à optimiser leur stratégie de publication pour maximiser l’engagement et la viralité sur LinkedIn.
 
 Pour plus de détails sur le pipeline de données (scraping, transformation, stockage, automatisation), consultez le dépôt dédié :  
-[**LinkedIn Performance Pipeline Repository**](https://github.com/Martial2023/Bank-performance-analysis)
+[**LinkedIn Performance Pipeline Repository**](https://github.com/Martial2023/Linkedin-Performance-Analytics-Pipeline)
 
 ## Fonctionnalités du Projet
 
