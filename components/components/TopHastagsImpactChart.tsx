@@ -164,7 +164,7 @@ const TopHashtagsImpactChart = () => {
                         { id: 'gradientReactions', match: { id: 'Réactions' } },
                         { id: 'gradientShares', match: { id: 'Partages' } }
                     ]}
-                    margin={{ bottom: 50, left: 40, right: 40, top: 20 }}
+                    margin={{ bottom: 50, left: 30, right: 5, top: 10 }}
                     legends={[
                         {
                             anchor: 'bottom',
